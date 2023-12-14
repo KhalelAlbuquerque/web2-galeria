@@ -9,9 +9,9 @@ export default function Navigator(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home/>}></Route>
-                <Route path="/album/:id" element={<Album/>}></Route>
-                <Route path="/photo/:id" element={<Photo/>}/>
+                <Route path="/web2-galeria" element={<Home/>}></Route>
+                <Route path="/web2-galeria/album/:id" element={<Album/>}></Route>
+                <Route path="/web2-galeria/photo/:id" element={<Photo/>}/>
             </Routes>
         </BrowserRouter>
     )
